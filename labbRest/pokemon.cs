@@ -1,15 +1,14 @@
 using System.Text.Json.Serialization;
 
 
-public class pokemon
+public class ship
 {
 
-    [JsonPropertyName("name")]
 public string name { get; set; }
-[JsonPropertyName("weihgt")]
-public int weight { get; set; }
-[JsonPropertyName("is_default")]
-public bool   { get; set; }         
+
+public int starship_class { get; set; }
+
+public bool is_Default { get; set; }         
 
     
 }
