@@ -6,7 +6,7 @@ public class ship
 
 public string name { get; set; }
 
-public int starship_class { get; set; }
+public string starship { get; set; }
 
 public bool is_Default { get; set; }         
 
